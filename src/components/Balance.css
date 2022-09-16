@@ -1,0 +1,194 @@
+.saldo-div{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.barchart-div{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width:62vw;
+    border-radius: 10px;
+    background-color: rgb(245, 239, 239);
+    box-shadow: 1px 2px 6px -6px rgba(66, 68, 90, 1);
+    overflow:scroll;
+}
+
+.barchart-div-inside{
+    height:450px;
+    width:50vw;
+}
+
+.transfers-div{
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+    height: 450px;
+    width: 62vw;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: none;
+    overflow:scroll;
+}
+
+.barchart-button-div{
+    margin-left: 46px;
+    display:flex;
+    align-items: center;
+}
+
+.barchart-button-div.transfers{
+    margin-right:50.5px;
+    margin-left:0;
+}
+
+.next-page-button{
+    all: unset;
+    margin-top:50px;
+    margin-left:15px;
+    width: 28px;
+    height: 50px;
+    cursor: pointer;
+
+    background-image: url('./img/next_page2.png');
+    background-size:cover;
+    filter: opacity(0.25) drop-shadow(0 0 0 rgb(156, 156, 156));
+}
+
+.next-page-button:hover{
+    filter: opacity(0.35) drop-shadow(0 0 0 rgb(156, 156, 156));
+}
+
+.next-page-button.previous{
+    transform: scaleX(-1);
+    margin-right:15px;
+    margin-bottom: 70px;
+}
+
+.display-saldo-p{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.transfer-row{
+    background-color: rgb(245, 239, 239);
+    width:90%;
+    height:100px;
+    padding: 10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.transfers-title{
+    margin-top:30px;
+    font-size: 30px;
+}
+
+.line{
+    height:1px;
+    border: 1px solid white;
+    width:90%;
+    margin:auto;
+}
+
+.transfer-name{
+    display:flex;
+    align-items: center;
+    font-size:25px;
+    margin-left:5%;
+    margin-bottom: 5px;
+}
+
+.transfer-amount{
+    width:90%;
+    margin-left:5%;
+    font-size:25px;
+    margin-top:5px;
+    display: flex;
+}
+
+.transfer-amount-text{
+    margin-top:5px;
+    width:fit-content;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.pln-amount{
+    font-size:20px;
+    margin-top:10px;
+    margin-left:5px;
+    color:gray;
+}
+
+.small-text-transfers{
+    font-size: 15px;
+    color: gray;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:7px;
+}
+
+.saldo-before{
+    text-align: center;
+    margin-top:200px;
+    font-size: 50px;
+    width:40vw;
+    color: rgb(218, 216, 216);
+}
+
+@media (max-width:1100px) {
+    .barchart-div{
+        width:70vw;
+        margin-left:-33px;
+    }
+
+    .barchart-div-inside{
+        width:60vw;
+    }
+
+    .transfers-div{
+        width:70vw;
+    }
+
+    .transfer-row{
+        width:60vw;
+    }
+    
+    .previous{
+        margin-left:33px;
+    }
+}
+
+@media (max-width:700px) {
+    .barchart-div{
+        width:80vw;
+        margin-left:-33px;
+    }
+
+    .barchart-div-inside{
+        width:70vw;
+    }
+
+    .transfers-div{
+        width:80vw;
+    }
+
+    .transfer-row{
+        width:70vw;
+    }
+    
+    .previous{
+        margin-left:33px;
+    }
+
+    .saldo-before{
+        margin-top:100px;
+    }
+
+ }

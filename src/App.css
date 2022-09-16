@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&family=Kanit&family=Montserrat:wght@100;200;400&family=Roboto+Mono:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.App{
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-color:white;
+}
+
+body{
+  background-color: rgb(59, 59, 59);
+  height: 100%;
+
+}

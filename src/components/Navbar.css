@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: rgb(245, 239, 239);
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: inset 0px 4px 4px -4px gray, 0px 4px 6px -6px gray;
+    font-size:20px;
+}
+
+.navbar-p{
+    cursor: pointer;
+    width:180px;
+    text-align: center;
+}
+
+.navbar-p:hover::before{
+    content: ">> ";
+    color: rgb(187, 187, 187);
+}
+
+.navbar-p:hover::after{
+    content: " <<";
+    color: rgb(187, 187, 187);
+}
+
+@media (max-width:700px) {
+
+    .navbar-p{
+        width: fit-content;
+    }
+
+ }
