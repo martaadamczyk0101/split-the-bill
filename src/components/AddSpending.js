@@ -73,8 +73,8 @@ function AddSpending({spendingList, getHistory, eventTitle}) {
     setButtonText('EXPENSE SAVED')
     setIsSaved(current => !current)
 
-      spendingList.map((person) => {
-        if(person.id === payingPersonID){
+      spendingList.forEach((person) => {
+        if(person.id == payingPersonID){
           payingPersonName= person.name;
           person.spending+=Number(expense)
           person.saldo=person.spending-person.debt
@@ -83,8 +83,8 @@ function AddSpending({spendingList, getHistory, eventTitle}) {
 
       priceEach=expense/checkedPeople.length;
 
-      spendingList.map((person) => {
-        checkedPeople.map((id) => {
+      spendingList.forEach((person) => {
+        checkedPeople.forEach((id) => {
           if(person.id === id){
             if(checkedPeople.length === spendingList.length){
               paidForNames='Everyone'
