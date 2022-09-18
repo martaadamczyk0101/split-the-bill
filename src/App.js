@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/split-the-bill'>
         <Routes>
               <Route path="/" element={<NewEvent getSpendingList={getSpendingList} getEventTitle={getEventTitle}/>} />
               <Route path="/new-expense" element={<AddSpending spendingList={spendingList} getHistory={getHistory} eventTitle={eventTitle}/>}/>
