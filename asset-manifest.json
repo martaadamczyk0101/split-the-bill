@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/split-the-bill/static/css/main.fcc8c8a5.css",
-    "main.js": "/split-the-bill/static/js/main.ad8d9d1c.js",
+    "main.js": "/split-the-bill/static/js/main.640dfca8.js",
     "static/media/people.png": "/split-the-bill/static/media/people.7ade0d95493326a10078.png",
     "static/media/people2.png": "/split-the-bill/static/media/people2.c4ea39b739f4f4cbb90c.png",
     "index.html": "/split-the-bill/index.html",
     "main.fcc8c8a5.css.map": "/split-the-bill/static/css/main.fcc8c8a5.css.map",
-    "main.ad8d9d1c.js.map": "/split-the-bill/static/js/main.ad8d9d1c.js.map"
+    "main.640dfca8.js.map": "/split-the-bill/static/js/main.640dfca8.js.map"
   },
   "entrypoints": [
     "static/css/main.fcc8c8a5.css",
-    "static/js/main.ad8d9d1c.js"
+    "static/js/main.640dfca8.js"
   ]
 }
